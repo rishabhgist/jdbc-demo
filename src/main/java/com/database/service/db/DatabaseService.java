@@ -20,6 +20,7 @@ public class DatabaseService {
 
         //Create
         databaseConnection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+
         return databaseConnection != null;
     }
 
