@@ -14,6 +14,10 @@ public class DatabaseService {
         this.databaseConnection = null;
     }
 
+    public Connection getDatabaseConnection() {
+        return databaseConnection;
+    }
+
     public boolean connect() throws ClassNotFoundException, SQLException {
         // Load the jdbc driver
         Class.forName("com.mysql.cj.jdbc.Driver");
@@ -31,4 +35,6 @@ public class DatabaseService {
             System.err.println("Not connected to the database");
         }
     }
+
+
 }

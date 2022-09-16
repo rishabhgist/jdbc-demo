@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fddfdc5-4747-4b29-b760-ab35e77fc43e" name="Changes" comment="added the connect method and print">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/model/Movie.java" afterDir="false" />
+    <list default="true" id="4fddfdc5-4747-4b29-b760-ab35e77fc43e" name="Changes" comment="added movie class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/MoiveRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/database/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/database/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/database/service/db/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/database/service/db/DatabaseService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -115,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663309202021</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added movie class">
+      <created>1663311126291</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663311126291</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +145,8 @@
     <MESSAGE value="added DatabaseService class" />
     <MESSAGE value="added di method signature for connect method" />
     <MESSAGE value="added the connect method and print" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the connect method and print" />
+    <MESSAGE value="added movie class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added movie class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
